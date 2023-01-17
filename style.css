@@ -241,16 +241,27 @@ body {
 
 }
 
-/* ========== LOCK ORIENTATION ON MOBILE ========== */
+/* ========== LANDSCAPE ORIENTATION ON MOBILE ========== */
 @media screen and (min-width: 320px) and (max-width: 900px) and (orientation: landscape) {
-    html {
-      transform: rotate(-90deg);
-      transform-origin: left top;
-      width: 100vh;
-      height: 100vw;
-      overflow-x: hidden;
-      position: absolute;
-      top: 100%;
-      left: 0;
+    #current-weather-items{
+        display: none;
     }
+    .date-container .time {
+        font-size: 2rem;
+    }
+    
+    .date-container .date{
+        font-size: 1rem;
+    }
+
+    .date-container{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .place-container .time-zone{
+        font-size: 1.5rem;
+    }
+
   }
