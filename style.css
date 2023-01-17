@@ -119,6 +119,7 @@ body {
     width: 100vw;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
 }
 
 .future-forecast .weather-forecast {
@@ -136,7 +137,7 @@ body {
 .future-forecast .today .day {
     padding: 0.313rem 0.938rem;
     background: var(--color-week-day-bg);
-    border-radius: 3.125rem;
+    border-radius: 1.5rem;
     text-align: center;
 }
 
@@ -177,6 +178,7 @@ body {
     background: var(--color-week-day-bg);
     border-radius: 3.125rem;
     text-align: center;
+    width: 7rem;;
 }
 
 .weather-forecast .weather-forecast-item .temp {
@@ -189,6 +191,7 @@ body {
         align-items: none;
         overflow-y: hidden;
         overflow-x: scroll;
+        padding: 1rem;
     }
 
 
@@ -224,6 +227,7 @@ body {
 
     .current-info .others .weather-item {
         font-size: 0.875;
+        gap: 3rem;
     }
 
 
