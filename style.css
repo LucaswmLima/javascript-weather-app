@@ -241,14 +241,12 @@ body {
 
 }
 
+/* ========== LOCK ORIENTATION ON MOBILE ========== */
 @media screen and (min-width: 320px) and (max-width: 900px) and (orientation: landscape) {
     html {
-      /* Rotate the content container */
       transform: rotate(-90deg);
       transform-origin: left top;
-      /* Set content width to viewport height */
       width: 100vh;
-      /* Set content height to viewport width */
       height: 100vw;
       overflow-x: hidden;
       position: absolute;
